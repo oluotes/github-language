@@ -93,10 +93,16 @@ public class Address implements java.io.Serializable
    {
       this.street1 = street1;
       this.street2 = street2;
-      this.city = city;
+      this.city = city; 
       this.state = state;
       this.postalCode = postalCode;
       this.country = country;
+   }
+   
+   @Override
+   public java.lang.String toString() {
+       return "Address: [ street1: " + street1 + " street2: " + street2 + " city: " + city + " state: " + state 
+       + " postalCode: " + postalCode + " country: " + country + " ]";
    }
 
 }

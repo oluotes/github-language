@@ -99,10 +99,10 @@ public class Address implements java.io.Serializable
       this.country = country;
    }
    
-   @Override
-   public java.lang.String toString() {
-       return "Address: [ street1: " + street1 + " street2: " + street2 + " city: " + city + " state: " + state 
-       + " postalCode: " + postalCode + " country: " + country + " ]";
-   }
+   public String toString() {
+		return "Address [street1=" + street1 + ", street2=" + street2
+				+ ", city=" + city + ", state=" + state + ", postalCode="
+				+ postalCode + ", country=" + country + "]";
+	}
 
 }

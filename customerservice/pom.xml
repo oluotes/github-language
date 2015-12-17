@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.winteam.language</groupId>
   <artifactId>customerservice</artifactId>
-  <version>1.2</version>
+  <version>1.3</version>
   <name>customerservice</name>
   <distributionManagement>
     <repository>
@@ -12,6 +12,13 @@
       <url>http://nexus-rhcbap.rhcloud.com/nexus/content/repositories/releases/</url>
     </repository>
   </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-api</artifactId>
+      <version>6.3.0.Final-redhat-5</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
@@ -22,11 +29,4 @@
       </plugin>
     </plugins>
   </build>
-  <dependencies>
-  	<dependency>
-  		<groupId>org.kie</groupId>
-  		<artifactId>kie-api</artifactId>
-  		<version>6.3.0.Final-redhat-5</version>
-  	</dependency>
-  </dependencies>
 </project>

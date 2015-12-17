@@ -59,4 +59,9 @@ public class Customer implements java.io.Serializable
       this.address = address;
    }
 
+    public String toString() {
+		return "Address [street1=" + street1 + ", street2=" + street2
+				+ ", city=" + city + ", state=" + state + ", postalCode="
+				+ postalCode + ", country=" + country + "]";
+	}
 }

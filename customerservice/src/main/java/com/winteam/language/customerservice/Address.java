@@ -23,7 +23,7 @@ public class Address implements java.io.Serializable
    @org.kie.api.definition.type.Label(value = "Country")
    private java.lang.String country;
 
-   public address()
+   public Address()
    {
    }
 

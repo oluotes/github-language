@@ -58,6 +58,12 @@ public class Customer implements java.io.Serializable
       this.lastName = lastName;
       this.address = address;
    }
+   
+   public Customer(java.lang.String firstname, java.lang.String lastName)
+   {
+       this.firstname = firstname;
+       this.lastName = lastName;
+   }
 
     public String toString() {
 		return "Customer [firstname=" + firstname + ", lastname=" + lastName
